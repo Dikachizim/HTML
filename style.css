@@ -1,0 +1,26 @@
+.mainbox{
+    display: flex;
+    background-color: silver;
+    flex-direction: column-reverse;
+    height: 250px;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.mainbox2{
+    display: flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+    height: 250px;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.mainbox3{
+    display: flex;
+    background-color: rgb(97, 109, 216);
+    flex-direction: column-reverse;
+    height: 250px;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
