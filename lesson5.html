@@ -4,40 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lists</title>
-    <h1>My Shopping List</h1>
+    <title>Lesson 5 Homework</title>
 </head>
-<body>
-    <link rel="stylesheet" href="style.css">
-    <!--<div>This is just a comment: 
-        use html:5 to get the basic html set up above.
-    </div>-->
+<div class="mainbox4"> 
     <style>
-    ul.a {list-style-type: square};</style>
-    <ul class="a">
-        <li>Bread</li>
-        <li>Milk</li>
-        <li>Sugar</li>
-        <li>Water</li>
-        <li>Drinks</li>
-        <!--<div> use li*no. of list items </div>-->
-    </ul>
-    <div class="mainbox">
-      <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-      <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-      <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
+        /* unvisited link */
+        a:link {
+          color: rgb(34, 0, 48);
+          text-decoration: none;
+        }
+        
+        /* visited link */
+        a:visited {
+          color: rgb(110, 1, 164);
+        }
+        
+        /* mouse over link */
+        a:hover {
+          color: rgb(146, 98, 172);
+        }
+        
+        /* selected link */
+        a:active {
+          color: rgb(234, 99, 169);
+        }
+        </style>
+    <a class="active" href="#Home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#Contact">Contact Us</a>
+    <a href="#Map">Find us on the map</a>
+    <a href="#Work">Work with us</a>
+</div>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="mainbox5">
+        <h3>Our plan for the course</h3>
+        <p><style>ul.a {list-style-type: circle};</style></p>
+    <p><ul class="a">
+        <li>We work hard</li>
+        <li>Learn HTML and CSS really fast</li> 
+        <li>NOT forget what we learnt so fast</li>
+    </p>
     </div>
 
-    <div class="mainbox2">
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-      </div>
+    <div class="mainbox6">
+        <h3>Shopping list</h3>
+        <p><style>ol.a {list-style-type: lower-alpha};</style></p>
+    <p><ol class="a">
+        <li>Gluten free CSS</li>
+        <li>Lactose free HTML</li> 
+        <li>Vegan Flexboxes</li>
+        <li>Organic lists</li>
+    </p>
+    </div>
 
-      <div class="mainbox3">
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-        <p><img src="cat.jpg" alt="A picture of a cat" width="200" height="200" /></p>
-      </div>
+    
+
+    
+ 
 </body>
 </html>
