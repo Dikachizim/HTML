@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <div>
+        <!--Thanks a lot for the assignment. It was exciting and at the same time quite confusing. I wasn't sure if I should do all the CSS styling right here or in the actual rainbow sections so I just played a lot of tricks to get the solution as you can see. I hope that works.--></div>
     <style>
-      /* Modify this section to solve the homework. Uncomment the codes below. */
+      
       
       div p {
-        background-colors: rgb(103, 76, 76);
+        
       }
       div > p {
        
@@ -17,21 +19,34 @@
 
       }
       h2{
-        //Make a fancy shadow for h2 here. Style it anyway you want!
+        text-shadow: 2px 2px 5px rgb(0, 136, 255);
       }
       p{
-        //Change the fonts here. Use any font you want, even comic sans!
+        font-family: Georgia ;
       }
-      a{
-        //modify the link into a button. Make the button color "Bondi Blue", which is the inverse color of "tomato". More info: https://www.color-name.com/tomato.color
+      a:link { 
+        color:rgb(255, 255, 255)
+        
       }
-      Uncomment here */
+
+      .button {
+        background-color: #0095b6;
+        border: none;
+        color: #0095b6;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        padding: 15px 32px;
+        cursor: pointer;
+       }
     </style>
   </head>
   <body>
     <h2>Let's make a rainbow</h2>
 
-    <p>
+    <p style="background-color: white; color: black">
       Use combinators in internal CSS and inline CSS to produce rainbow below.
       Make the link into a button with "Bondi Blue" color.
     </p>
@@ -70,7 +85,7 @@
     <p style="background-color: #4B0082; color: rgb(255, 255, 255);">Indigo</p>
     <!--Use inline for Indigo; use rgb-->
     <p style="background-color: rgb(155,38,182) ;">Violet</p>
-
-    <a href="#">Rainbows are awesome!</a>
+    
+    <button class="button"><a href="#">Rainbows are awesome!</a></button>
   </body>
 </html>
