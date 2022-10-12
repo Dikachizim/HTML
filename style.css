@@ -59,3 +59,54 @@
     color: blueviolet;
     
 }
+
+/* lesson/exercise 6: box sizing */
+* { margin: 0; }
+
+.mainwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+  }
+
+.wrapper {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid rgb(0, 46, 161);
+    margin: 0;
+    
+  }
+     
+  
+.wrapper2 {
+    background-color: rgb(236, 43, 43);
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    color: white;
+    
+    
+  }
+
+.wrapper3 {
+    display: grid;
+    border: 2px solid tomato;
+    margin-block: 5px;
+    grid-template-columns: 33% 33% 33%;
+    color: white;
+    padding: 4px;
+}
+
+.inline-display {
+    display: inline;
+    border: 2px solid tomato;
+    margin-top: 16px;
+}
+
+.margin{
+    display: inline;
+}
+
