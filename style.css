@@ -197,3 +197,46 @@ h1::after{
     height: 300px;
     background-image: linear-gradient(to right top, red, blue, green)
 }
+
+body {
+    background-color: #eeeeee;
+}
+div:nth-child(1) {
+    background-color: #ffffff;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+img:nth-child(1) {
+    width: 300px;
+    height:auto;
+    margin: 15px 100px 50px 70px;
+
+
+}
+
+img:nth-child(2) {
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 30px 100px 50px 130px;
+
+}
+
+.button {
+    background-color: rgb(115, 195, 219);
+    color: white;
+    width: auto;
+    height: 30px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+}
+
+
