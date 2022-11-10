@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive design</title>
+    <style>
+        @media (max-width: 767px) {
+          #only-pc {
+            display:none;
+          }
+        }
+
+        @media (min-width: 767px) {
+          #only-mobile {
+            visibility: hidden;
+          }
+        }
+      </style> 
+</head>
+
+<body style="background-color:rgb(207, 207, 207);">
+
+    <div id="response">
+        <p style="position:absolute; left:20px;"> <strong>Wallet</strong></p>
+        <p style="position:absolute; right:-50px; top: 5px"><img src="hamburger icon.png"style="width:20px; height:20px;"/></p>
+    </div>
+
+    <span id="only-pc">This page is only available on the mobile app</span>
+
+    
+    <div id="only-mobile" style="justify-content: center; align-items: center; max-width: 100%; padding-top: 30px;">
+        <div id="newcircle">
+        <p>322€</p>
+    </div>
+    </div>
+
+    <div id="only-mobile" style="justify-content: center; align-items: center; max-width: 100%; padding-top: 30px; padding-bottom: 30px;">
+        <div id="bigcircle">
+        <p>Add Money</p>
+    </div>
+    </div>
+
+
+    <div id="footer2">
+    </div>
+    
+   
+    
+
+</body>
+</html>
