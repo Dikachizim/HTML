@@ -305,3 +305,43 @@ img:nth-child(2) {
     0%   {left:0vw;}
     100%  {left:100vw;}
 }
+
+#response {
+    background-color: rgb(159, 159, 159);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 15px;
+}
+
+#newcircle {
+    border: solid  black 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+
+}
+
+#bigcircle {
+    border: solid  black 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+
+}
+
+#footer2 {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    height: 50px;
+    position:absolute; 
+    bottom:0;
+    border: solid  black 2px;
+}
